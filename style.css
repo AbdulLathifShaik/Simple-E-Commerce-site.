@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name{
+    background-color: burlywood;
+    padding: 3rem;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(158, 91, 3);
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: blue;
+}
+nav ul{
+    background-color: rgb(215, 228, 240);
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+li i{
+    padding-right: 10px;
+}
+li{
+    padding-right: 7rem;
+    margin: 2%;
+}
+
+.head input{
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    width: 25rem;
+    height: 20%;
+    position: relative;
+    left: 12rem;
+    bottom: 0.4rem;
+    border: 0.5px solid black;
+}
+.head input:hover{
+    background-color: rgb(165, 169, 173);
+    cursor: pointer;
+}
+.fa-searchengin{
+    position: relative;
+    left:-11rem;
+    bottom: 0.1rem;
+}
+input{
+    padding: 5%;
+}
+.home{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(158, 91, 3);
+}
+.product11{
+    background-color:aliceblue;
+}
+.product1{
+    border: 1px solid white;
+    margin: 1rem;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product1 .pic{
+    border: 1px solid white;
+    background-color: white;
+}
+.product1 .pic1{
+    border: 1px solid white;
+    background-color: white;
+}
+.product1 .pic2{
+    border: 1px solid white;
+    background-color: white;
+}
+.product1 h3{
+    font-size: 2pc;
+}
+.product1 p{
+    font-size: 1pc;
+}
+.product22{
+    background-color: aliceblue;
+}
+.product1 button{
+    background-color: rgb(16, 67, 218);
+    color: #1d0202;
+    border: 1px solid blue;
+    font-weight: bolder;
+    width: 30%;
+}
+.product1 button:hover{
+    background-color: rgb(99, 99, 155);
+    color: white;
+}
+.product2{
+    border: 1px solid white;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product2 .pic1 .pic2{
+    border: 1px solid white;
+    background-color: white;
+}
+.product22{
+    background-color:aliceblue;
+}
+.product2 button{
+    background-color: rgb(16, 67, 218);
+    color: #1d0202;
+    border: 1px solid blue;
+    font-weight: bolder;
+    width: 30%;
+}
+.product2 button:hover{
+    background-color: rgb(99, 99, 155);
+    color: white;
+}
+
+.contact{
+    background-color: burlywood;
+    padding: 6%;
+}
+.contact h2{
+     font-size: 50px;
+     text-align: center;
+}
+.contact p{
+    font-size: 2pc;
+    text-align: center;
+}
+
+footer{
+    background-color: aliceblue;
+    font-size: 3pc;
+    text-align: center;
+    padding: 2rem;
+}
